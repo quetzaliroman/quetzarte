@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Caveat&family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Caveat&family=Chakra+Petch:wght@300&family=DynaPuff&family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Caveat&family=Chakra+Petch:wght@300&family=DynaPuff&family=Licorice&family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Caveat&family=Chakra+Petch:wght@300&family=DynaPuff&family=Handjet:wght@300&family=Licorice&family=Nova+Slim&display=swap');
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header img {
+    width: 200px;
+    padding: 10px 0;
+
+}
+
+header ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+
+header ul li {
+
+    margin: 30px;
+    font-family: 'Alata', sans-serif;
+    color: rgb(117, 117, 117);
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Licorice', cursive;
+
+}
+
+.intro h3 {
+ 
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-size: 70px;
+    
+}
+
+.sobremi {
+    background-color: #97D9E1;
+    background-image: linear-gradient(0deg, #97D9E1 0%, #D9AFD9 65%, #ffffff 100%);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 100px 50px 100px 50px;
+
+}
+
+.sobremi img {
+    width: 300px;
+    margin: 0 30px;
+}
+
+.sobremi p {
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.sobremi h1 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.cuerpo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.cuerpo img {
+    width: 300px;
+}
+
+#carouselExampleControls img {
+    width: 500px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.indi{
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px; 
+}
+.indi img{ /** para las caracteristicas de las imagnes de las cajas**/
+    border-radius: 10%; /**redonde la img dependiendo el %**/
+    width: 400px;
+}
+
+.indi.bajo{
+    margin-top: 150px;
+}
+
+.videos iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #7e7d7e;
+}
